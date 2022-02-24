@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <lable>Enter Your Message</lable><br><br>
+    <form action="/kafka/producer" method="post">
+        <input type="text" name="message"><br><br>
+        <input type="submit" value="Send">
+    </form>
+
+
+
+
+    <a href="/show" th:href="@{/show}"> Show Messages </a>
+
+
+</body>
+</html>

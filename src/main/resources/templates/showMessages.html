@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Messages</title>
+</head>
+<body>
+
+    <ul th:each="lst : ${list}">
+        <li th:text="${lst}"></li>
+    </ul>
+
+</body>
+</html>
